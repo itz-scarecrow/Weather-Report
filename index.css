@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(237, 219, 219);
+}
+.card{
+    border: 1px solid black;
+    width: 25rem;
+    height: 40rem;
+    border-radius: 14px;
+    background-color: aquamarine;
+    text-align: center;
+}
+.card-img-top{
+    width:auto;
+    height:20rem;
+    padding: 12px;
+}
+.card-body{
+    padding-top:60px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+}
+.WImg{
+    width:90px;
+    height:90px;
+    border: 1px solid rgb(33, 32, 32);
+    border-radius: 50px;
+    margin:10px;
+}
+.adj{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    background-color:  #ead1c0;
+    margin-bottom: 10px;
+}
+.navbar h1{
+    margin: auto;
+    padding:10px;
+    margin-bottom: 20px;
+}
